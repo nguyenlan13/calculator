@@ -50,8 +50,17 @@
 }
 
 .screen {
-  padding-top: 5%;
+  font-weight: bold;
+  /* padding-top: 5%; */
   padding-bottom: 5%;
+  text-align: right;
+  padding-right: 5%;
+  background-color: black;
+}
+
+.screen2 {
+  padding-top: 5%;
+  /* padding-bottom: 5%; */
   text-align: right;
   padding-right: 5%;
   background-color: black;
@@ -64,7 +73,13 @@
 }
 
 button {
+  background-color:cadetblue;
   font-weight: bold;
-  margin: 3px;
+  margin: 5px;
   padding-top: 5%;
+  cursor: pointer
+}
+
+.onButton {
+  background-color: orangered;
 }
