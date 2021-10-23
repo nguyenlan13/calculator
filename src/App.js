@@ -3,19 +3,14 @@ import './App.css';
 import ButtonsGrid from "./Components/ButtonsGrid";
 
 
-function App() {
 
-  const [state, setState] = useState({
-    operation:
-    
-    calculation:
-  })
+function App() {
 
   return (
     <div className="App">
       <header className="App-header">
       <div className="frame">
-        <ButtonsGrid handleClick={handleClick}/>
+        <ButtonsGrid/>
       </div>
       </header>
     </div>

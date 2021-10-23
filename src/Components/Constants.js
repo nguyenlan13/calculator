@@ -1,13 +1,7 @@
-export const buttonName = {
-    ON: "on",
-    PERCENT: "%",
-    CLEAR: "Clear",
-    DIVIDE: "/",
-    MULTIPLY: "x",
-    SUBTRACT: "-",
-    ADD: "+",
-    DOT: ".",
-    EQUALS: "=",
+export const operations = ["+", "-", "/", "x", "%"]
+
+
+export const numbers = {
     0: "0",
     1: "1",
     2: "2",
@@ -18,4 +12,3 @@ export const buttonName = {
     8: "8",
     9: "9"
 }
-
